@@ -1,0 +1,426 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* HEADER */
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #f8f9fa;
+}
+
+.header_open {
+    display: flex;
+    margin-top: 50px;
+}
+
+.header_left h1 {
+    color: #e19c4a;
+}
+
+.justify-content-center {
+    margin-left: 750px;
+}
+
+.nav-item-1 {
+    margin-right: 35px;
+}
+
+.nav-item-2 {
+    margin-right: 35px;
+}
+
+.nav-item-3 {
+    margin-right: 35px;
+}
+
+/* CAROUSEL */
+#carousel {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.carousel-item {
+    height: 713px;
+}
+
+.carousel_open {
+    display: flex;
+}
+
+.carousel_left {
+    width: 40%;
+    line-height: 40px;
+    z-index: 1;
+}
+
+.carousel_left .content {
+    position: absolute;
+    margin: 180px;
+    width: 40%;
+}
+
+.carousel_left .content h1 {
+    color: #060606;
+    font-size: 50px;
+}
+
+.carousel_left .content p {
+    color: #707070;
+    font-size: 20px;
+}
+
+.carousel {
+    width: 60%;
+}
+
+.carousel_left .content button {
+    border: 1px solid #e19c4a;
+    border-radius: 10px;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #e19c4a;
+    transition: 0.5s all;
+}
+
+.carousel_left .content button:hover {
+    background-color: green;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    border-radius: 0 0 0 15px;
+}
+
+
+/* NATURALLY */
+.naturally_open {
+    display: flex;
+}
+
+.naturally_left {
+    width: 50%;
+    margin: 140px auto;
+}
+
+.naturally_left h4 {
+    font-size: 25px;
+    color: #e19c4a;
+}
+
+.naturally_left h1 {
+    font-size: 50px;
+}
+
+.naturally_left p {
+    color: #707070;
+    margin-top: 30px;
+}
+
+.naturally_left button {
+    border: 1px solid #e19c4a;
+    border-radius: 10px;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #e19c4a;
+    transition: 0.5s all;
+}
+
+.naturally_left button:hover {
+    background-color: green;
+}
+
+.naturally_right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    margin: 100px auto;
+}
+
+.naturally_box {
+    align-items: center;
+    text-align: center;
+    padding: 30px 40px;
+    border: 1px solid wheat;
+    border-radius: 8px;
+    background-color: #ffffffb8;
+    box-shadow: 0px 10px 10px 0px wheat;
+    line-height: 40px;
+}
+
+.img-fluid {
+    max-width: 60px;
+    height: auto;
+}
+
+.naturally_right p {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #060606;
+    font-weight: bold;
+}
+
+/* <!-- SERVICES --> */
+#services {
+    background-color: #009f4d;
+    height: 750px;
+}
+
+#services .container {
+    position: relative;
+}
+
+.services_open {
+    display: flex;
+    color: white;
+}
+
+.services_left {
+    margin-top: 30px;
+}
+
+.services_left h2 {
+    font-size: 40px;
+}
+
+.services_right p {
+    margin: 50px 0 50px 80px;
+    line-height: 30px;
+}
+
+.text_hidden {
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    z-index: 0;
+    opacity: .14;
+    font-size: 100px;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    top: -370px;
+}
+
+.services_contact {
+    display: flex;
+    gap: 59px;
+    margin-top: 50px;
+}
+
+.text_hidden h3 {
+    font-size: 12vw;
+}
+
+.services_item {
+    width: 30%;
+}
+
+.services_pic img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.services_content {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0 0 10px 10px;
+    padding: 20px 20px;
+}
+
+.services_content button {
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: green;
+    transition: all 0.5s;
+}
+
+.services_content button:hover {
+    background-color: green;
+}
+
+
+.services_content h2 {
+    margin: 6px;
+}
+
+.services_content p {
+    margin: 10px;
+}
+
+/* CHOOSE */
+#choose {
+    margin: 50px;
+}
+
+.choose_open {
+    display: flex;
+}
+
+.choose_title {
+    margin: 50px 20px;
+}
+
+.choose_left {
+    width: 50%;
+}
+
+.choose_title h3 {
+    color: #e19c4a;
+}
+
+.choose_title p {
+    color: #707070;
+}
+
+.choose_staff {
+    display: flex;
+}
+
+.choose_icon {
+    display: flex;
+    margin-top: 50px;
+}
+
+.choose_icon span {
+    color: #e19c4a;
+    margin: 7px;
+}
+
+.choose_icon span i {
+    font-size: 20px;
+}
+
+.choose_right {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+}
+
+.choose_right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 57px;
+    width: 90%;
+}
+
+.choose_box {
+    position: absolute;
+    background-color: #fb811e;
+    color: #fff;
+    position: absolute;
+    left: -85px;
+    bottom: 38px;
+    padding: 40px;
+    box-shadow: 30px 30px 30px rgb(0 0 0 / 20%);
+    min-width: 300px;
+    border-radius: 0 0 100px 0;
+    text-align: center;
+}
+
+
+.homepageservices {
+    padding: 0px 16px;
+
+}
+
+/* GALARY */
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.galery-item1 {
+    width: 25%;
+
+}
+
+.galery-item1 button {
+    font: 16px;
+    margin: 24px 0px 0px;
+    padding: 12px 30px;
+    background: orange;
+}
+
+.galery-item2 {
+    position: relative;
+    width: 25%;
+}
+
+.galery-pic {
+    position: absolute;
+    bottom: 20px;
+    z-index: 0;
+    color: white;
+    right: 20%;
+    left: 20%;
+    text-align: center;
+    background: rgb(255 255 255 / 27%);
+
+}
+
+/* customer */
+#customer {
+    height: 500px;
+    width: 100%;
+    background-image: url("https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#customer .container {
+    position: relative;
+}
+
+.customer {
+    position: absolute;
+    top: 200px;
+
+}
+
+.testi-img img {
+    border: 4px solid;
+    border-radius: 20px;
+}
+
+
+/* footer */
+
+.container-farmstead {
+    font: 16px;
+    margin: 0px 304px;
+    padding: 24px 15px;
+    display: flex;
+}
+
+.farm a {
+    color: orange;
+}
+
+
+
+.button {
+    background-color: green;
+    padding: 12px;
+}
